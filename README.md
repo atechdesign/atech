@@ -10,20 +10,20 @@
 
 ## 🧩 รายชื่อทีม (Roster)
 
-| # | ไฟล์ | Role | หน้าที่หลักโดยย่อ |
+| # | Skill | Role | หน้าที่หลักโดยย่อ |
 |---|------|------|------------------|
-| 00 | [00-tech-lead-orchestrator.md](00-tech-lead-orchestrator.md) | **Tech Lead / Orchestrator** | หัวหน้าทีม รับโจทย์ แตกงาน มอบหมาย รวมงาน ตัดสินใจขั้นสุดท้าย |
-| 01 | [01-product-manager.md](01-product-manager.md) | **Product Manager** | กำหนด vision, roadmap, จัดลำดับความสำคัญ, เขียน user story |
-| 02 | [02-business-analyst.md](02-business-analyst.md) | **Business Analyst** | วิเคราะห์ requirement, เขียน spec, จำลอง process |
-| 03 | [03-software-architect.md](03-software-architect.md) | **Software Architect** | ออกแบบสถาปัตยกรรมระบบ, เลือกเทคโนโลยี, ตั้งมาตรฐาน |
-| 04 | [04-ux-ui-designer.md](04-ux-ui-designer.md) | **UX/UI Designer** | ออกแบบประสบการณ์ผู้ใช้, wireframe, design system |
-| 05 | [05-frontend-developer.md](05-frontend-developer.md) | **Frontend Developer** | พัฒนา UI ฝั่งหน้าบ้าน, เชื่อม API |
-| 06 | [06-backend-developer.md](06-backend-developer.md) | **Backend Developer** | พัฒนา API, business logic, ฐานข้อมูล |
-| 07 | [07-mobile-developer.md](07-mobile-developer.md) | **Mobile Developer** | พัฒนาแอป iOS/Android/cross-platform |
-| 08 | [08-devops-engineer.md](08-devops-engineer.md) | **DevOps Engineer** | CI/CD, infrastructure, deployment, monitoring |
-| 09 | [09-qa-engineer.md](09-qa-engineer.md) | **QA Engineer** | ทดสอบ, test automation, ควบคุมคุณภาพ |
-| 10 | [10-security-engineer.md](10-security-engineer.md) | **Security Engineer** | ตรวจความปลอดภัย, threat modeling, code review ด้านความปลอดภัย |
-| 11 | [11-data-engineer.md](11-data-engineer.md) | **Data Engineer** | data pipeline, ฐานข้อมูล, analytics |
+| 00 | [tech-lead-orchestrator](tech-lead-orchestrator/SKILL.md) | **Tech Lead / Orchestrator** | หัวหน้าทีม รับโจทย์ แตกงาน มอบหมาย รวมงาน ตัดสินใจขั้นสุดท้าย |
+| 01 | [product-manager](product-manager/SKILL.md) | **Product Manager** | กำหนด vision, roadmap, จัดลำดับความสำคัญ, เขียน user story |
+| 02 | [business-analyst](business-analyst/SKILL.md) | **Business Analyst** | วิเคราะห์ requirement, เขียน spec, จำลอง process |
+| 03 | [software-architect](software-architect/SKILL.md) | **Software Architect** | ออกแบบสถาปัตยกรรมระบบ, เลือกเทคโนโลยี, ตั้งมาตรฐาน |
+| 04 | [ux-ui-designer](ux-ui-designer/SKILL.md) | **UX/UI Designer** | ออกแบบประสบการณ์ผู้ใช้, wireframe, design system |
+| 05 | [frontend-developer](frontend-developer/SKILL.md) | **Frontend Developer** | พัฒนา UI ฝั่งหน้าบ้าน, เชื่อม API |
+| 06 | [backend-developer](backend-developer/SKILL.md) | **Backend Developer** | พัฒนา API, business logic, ฐานข้อมูล |
+| 07 | [mobile-developer](mobile-developer/SKILL.md) | **Mobile Developer** | พัฒนาแอป iOS/Android/cross-platform |
+| 08 | [devops-engineer](devops-engineer/SKILL.md) | **DevOps Engineer** | CI/CD, infrastructure, deployment, monitoring |
+| 09 | [qa-engineer](qa-engineer/SKILL.md) | **QA Engineer** | ทดสอบ, test automation, ควบคุมคุณภาพ |
+| 10 | [security-engineer](security-engineer/SKILL.md) | **Security Engineer** | ตรวจความปลอดภัย, threat modeling, code review ด้านความปลอดภัย |
+| 11 | [data-engineer](data-engineer/SKILL.md) | **Data Engineer** | data pipeline, ฐานข้อมูล, analytics |
 
 ---
 
@@ -55,12 +55,35 @@
 
 ---
 
+## 📦 โครงสร้าง repo (1 skill = 1 โฟลเดอร์)
+
+แต่ละ role เป็น skill มาตรฐาน — อยู่ในโฟลเดอร์ของตัวเองและมีไฟล์ `SKILL.md`:
+
+```
+atech/
+├── tech-lead-orchestrator/SKILL.md
+├── product-manager/SKILL.md
+├── ...
+└── data-engineer/SKILL.md
+```
+
 ## ⚙️ วิธีนำไปใช้กับ Multica + Claude
 
-แต่ละไฟล์ออกแบบให้เป็น **persona / skill แบบ standalone** ใช้ได้ 2 แนวทาง:
+### นำเข้าผ่าน "Import from URL" ของ Multica
+นี่เป็น **multi-skill repository** ต้องชี้ไปที่ **โฟลเดอร์ของแต่ละ skill** (import ทีละตัว):
 
-1. **เป็น System Prompt ต่อ 1 agent** — สร้าง agent 1 ตัวต่อ 1 role ใน Multica แล้ววางเนื้อหาไฟล์เป็น system prompt / instruction ของ agent นั้น
-2. **เป็น Claude Skill** — ทุกไฟล์มี YAML frontmatter (`name`, `description`) ครบ สามารถนำไปวางใน `.claude/skills/<name>/SKILL.md` ได้โดยตรงหากต้องการใช้กับ Claude Code
+```
+https://github.com/atechdesign/atech/tree/main/tech-lead-orchestrator
+https://github.com/atechdesign/atech/tree/main/product-manager
+https://github.com/atechdesign/atech/tree/main/business-analyst
+... (ทำซ้ำสำหรับทุก role)
+```
+
+> ⚠️ อย่าใส่ URL ของ repo เปล่า ๆ (`.../atech.git`) เพราะ Multica จะหา `SKILL.md` ที่ root ไม่เจอ
+
+### แนวทางอื่นที่ใช้ได้
+- **เป็น System Prompt ต่อ 1 agent** — สร้าง agent 1 ตัวต่อ 1 role แล้ววางเนื้อหา `SKILL.md` เป็น system prompt
+- **ใช้กับ Claude Code** — copy โฟลเดอร์ไปวางใน `.claude/skills/` ได้โดยตรง
 
 **แนะนำการเริ่มต้น:**
 1. ตั้ง **00 Tech Lead / Orchestrator** เป็น agent หลักที่รับโจทย์จากผู้ใช้

@@ -37,6 +37,7 @@
 | 17 | [three-d-artist](three-d-artist/SKILL.md) | **3D Artist** | Blender scripts, Three.js, product viz, materials/lighting |
 | 18 | [social-media-manager](social-media-manager/SKILL.md) | **Social Media Manager** | content calendar, community playbook, engagement |
 | 19 | [digital-marketing-specialist](digital-marketing-specialist/SKILL.md) | **Digital Marketing Specialist** | paid ads, SEO, tracking/UTM, ROI report |
+| 19.5 | [video-editor](video-editor/SKILL.md) | **Video Editor** | ตัดต่อ/render จริงด้วย FFmpeg + Remotion, ซับไทย/ลาว, export ทุกแพลตฟอร์ม |
 
 ### 💰 Finance Team
 

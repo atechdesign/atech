@@ -26,6 +26,39 @@
 | 11 | [data-engineer](data-engineer/SKILL.md) | **Data Engineer** | data pipeline, ฐานข้อมูล, analytics |
 | 12 | [business-development](business-development/SKILL.md) | **Business Development & Sales** | ทำ proposal, pitch deck, ราคา, ตอบ RFP เพื่อขายงาน |
 
+### 🎨 Marketing Team
+
+| # | Skill | Role | หน้าที่หลักโดยย่อ |
+|---|------|------|------------------|
+| 13 | [marketing-director](marketing-director/SKILL.md) | **Marketing Director** (lead) | วางกลยุทธ์แคมเปญ แตกงาน มอบหมาย รวมงาน คุมแบรนด์ |
+| 14 | [content-strategist](content-strategist/SKILL.md) | **Content Strategist** | content plan, copywriting ไทย/ลาว/อังกฤษ, SEO writing |
+| 15 | [graphic-designer](graphic-designer/SKILL.md) | **Graphic Designer** | brand identity, social graphics, SVG/spec/prompt |
+| 16 | [video-producer](video-producer/SKILL.md) | **Video Producer** | สคริปต์, storyboard, shot list, ซับไตเติล, edit plan |
+| 17 | [three-d-artist](three-d-artist/SKILL.md) | **3D Artist** | Blender scripts, Three.js, product viz, materials/lighting |
+| 18 | [social-media-manager](social-media-manager/SKILL.md) | **Social Media Manager** | content calendar, community playbook, engagement |
+| 19 | [digital-marketing-specialist](digital-marketing-specialist/SKILL.md) | **Digital Marketing Specialist** | paid ads, SEO, tracking/UTM, ROI report |
+
+### 💰 Finance Team
+
+| # | Skill | Role | หน้าที่หลักโดยย่อ |
+|---|------|------|------------------|
+| 20 | [finance-manager](finance-manager/SKILL.md) | **Finance Manager** (lead) | งบประมาณ, budget vs actual, ค่าใช้จ่าย AI/token |
+| 21 | [accountant](accountant/SKILL.md) | **Accountant** | บันทึกบัญชี, ใบเสนอราคา/invoice, ปิดงบรายเดือน |
+
+### ⚖️ Legal Team
+
+| # | Skill | Role | หน้าที่หลักโดยย่อ |
+|---|------|------|------------------|
+| 22 | [legal-counsel](legal-counsel/SKILL.md) | **Legal Counsel** (lead) | ร่าง/รีวิวสัญญา, เอกสาร tender, สรุปความเสี่ยง |
+| 23 | [compliance-officer](compliance-officer/SKILL.md) | **Compliance Officer** | privacy policy, PDPA, checklist, ทะเบียน license |
+
+### 👥 HR Team
+
+| # | Skill | Role | หน้าที่หลักโดยย่อ |
+|---|------|------|------------------|
+| 24 | [hr-manager](hr-manager/SKILL.md) | **HR Manager** (lead) | roster agent, onboarding role ใหม่, performance review |
+| 25 | [agent-performance-analyst](agent-performance-analyst/SKILL.md) | **Agent Performance Analyst** | วิเคราะห์ task/cost/efficiency ของ agent ทุกตัว |
+
 ---
 
 ## 🔄 Flow การทำงานของทีม (ภาพรวม)

@@ -60,6 +60,12 @@
 | 24 | [hr-manager](hr-manager/SKILL.md) | **HR Manager** (lead) | roster agent, onboarding role ใหม่, performance review |
 | 25 | [agent-performance-analyst](agent-performance-analyst/SKILL.md) | **Agent Performance Analyst** | วิเคราะห์ task/cost/efficiency ของ agent ทุกตัว |
 
+### 🗂️ Executive Office
+
+| # | Skill | Role | หน้าที่หลักโดยย่อ |
+|---|------|------|------------------|
+| 26 | [executive-secretary](executive-secretary/SKILL.md) | **Executive Secretary (เลขา)** | รายงานหน้างานทุกทีม, คิวเรื่องรอตัดสินใจ, minutes, ติดตามงานค้าง |
+
 ---
 
 ## 🔄 Flow การทำงานของทีม (ภาพรวม)

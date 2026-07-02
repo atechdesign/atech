@@ -24,6 +24,7 @@
 | 09 | [qa-engineer](qa-engineer/SKILL.md) | **QA Engineer** | ทดสอบ, test automation, ควบคุมคุณภาพ |
 | 10 | [security-engineer](security-engineer/SKILL.md) | **Security Engineer** | ตรวจความปลอดภัย, threat modeling, code review ด้านความปลอดภัย |
 | 11 | [data-engineer](data-engineer/SKILL.md) | **Data Engineer** | data pipeline, ฐานข้อมูล, analytics |
+| 12 | [business-development](business-development/SKILL.md) | **Business Development & Sales** | ทำ proposal, pitch deck, ราคา, ตอบ RFP เพื่อขายงาน |
 
 ---
 
